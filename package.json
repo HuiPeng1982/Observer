@@ -18,6 +18,6 @@
         "wurl": "~1.1.3"
     },
     "devDependencies": {
-        "nodemon": "latest"
+        "nodemon": "~1.2.1"
     }
 }
