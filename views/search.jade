@@ -1,0 +1,9 @@
+extends layout
+block content
+    input(id='inp', type='text', style='width:50%')
+    button(type='submit', id='search') 搜索
+
+    script.
+        $( "#search" ).click(function() {
+            window.open('/?url=' + encodeURIComponent($('#inp').val()), '_blank');
+        });
